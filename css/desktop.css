@@ -1,0 +1,105 @@
+/*Base Color Template
+        --black: #000000;
+        --ash-black: #222;
+        --white: #ffffff;
+        --offwhite: #F5F5DC;
+        --sky: #00ccff;
+        --green: #22dddd;
+        --blue: #1300ff;
+        --dusk: #6600ff;
+        --purple: #9900ff;
+        --pink: #ff0066;
+        --red: #fe0222;
+        --orange: #fd7702;
+        --yellow: #ffbb00;
+*/
+  @keyframes gradient-anim {
+    0% {
+        opacity: 1;
+        background-position: 0% 50%;
+    }
+    50% {
+        opacity: 1;
+        background-position: 100% 50%;
+    }
+    100% {
+        opacity: 1;
+        background-position: 0% 50%;
+    }
+  }
+
+div{/*class selector*/
+    text-align: justify;
+}
+
+h1{/*tag selector*/
+    text-align: center;
+    font-weight: bold;
+    transform: translate(0px, -48px);
+    --color: #830135;
+    font-size: 72px;
+    background-image: linear-gradient(135deg, #aaad0f 20%, #830135 65%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2{/*tag selector*/
+    text-align: center;
+    font-weight: bold;
+    --color: #830135;
+    font-size: 48px;
+    background-image: linear-gradient(135deg, #ad830f 40%, #830135 75%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#menuAnchor{/*id selector*/
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.listPad{/*class selector*/
+    display: inline-block;
+    text-align: left;
+    padding-inline-start: 25%;
+    padding-inline-end: 15%;
+    line-height: 1.5;
+}
+
+#pa{/*id selector*/
+    text-align: center;
+    font-style: italic;
+}
+
+#phob{
+    text-align: center;
+    padding-inline-start: 25%;
+    padding-inline-end: 25%;
+    line-height: 2;
+}
+
+.pi{/*class selector*/
+    text-align: justify;
+    padding-inline-start: 20%;
+    padding-inline-end: 35%;
+    line-height: 2;
+}
+
+.table{
+    width: 40%;
+    margin: 0 30%;
+    text-align: left;
+}
+
+.thEnd{
+    padding-inline-start: 15%;
+}
+
+.aimg{
+    display: flex;
+    justify-content: center;
+}
+
+.div_c{/*class selector*/
+    text-align: center;
+}
