@@ -13,27 +13,7 @@
         --orange: #fd7702;
         --yellow: #ffbb00;
 */
-html {
-    scroll-padding-top: 4rem;
-  }
-.dropdown:hover .dropdown-menu {
-    display: block;
-}
-
-@media (min-width: 768px) {
-    .dropdown-menu {
-      right: 0;
-      left: auto;
-    }
-}  
-
-.gradient-background {/*class selecter*/
-    background: linear-gradient(255deg,#c2d0ff,#ffe2f2);
-    background-size: 340% 340%;
-    animation: gradient-anim 69s cubic-bezier(0.37, 0, 0.63, 1) infinite alternate both;
-}
-
-  @keyframes gradient-anim {
+@keyframes gradient-anim {
     0% {
         opacity: 1;
         background-position: 0% 50%;
@@ -48,17 +28,6 @@ html {
     }
   }
 
-.dropdown-item:hover {
-    background-color: #e6f2ff; /* Hover background color */
-}
-
-.dropdown-item {
-    background: linear-gradient(235deg, #aaad0f 20%, #830135 65%);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: gradient-anim 29s cubic-bezier(0.37, 0, 0.63, 1) infinite alternate-reverse backwards;
-}
-
 div{/*class selector*/
     text-align: justify;
 }
@@ -66,7 +35,7 @@ div{/*class selector*/
 h1{/*tag selector*/
     text-align: center;
     font-weight: bold;
-    /*transform: translate(0px, -48px);*/
+    transform: translate(0px, -48px);
     --color: #830135;
     font-size: 72px;
     background-image: linear-gradient(135deg, #aaad0f 20%, #830135 65%);

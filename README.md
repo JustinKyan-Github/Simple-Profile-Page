@@ -1,2 +1,2 @@
 # Simple-Profile-Page
-This is currently a simple HTML webpage for a profile page
+This is a simple HTML, CSS, and Bootstrap web profile page
